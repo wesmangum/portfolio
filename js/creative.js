@@ -42,6 +42,14 @@
         }
     });
 
+    $('#emailLink').html(function () {
+        var username = 'wesmangum24',
+            handle = 'gmail.com'
+        ;
+
+        return '<a href="mailto:' + username + '@' + handle + '">' + username + '@' + handle + '</a>';
+    });
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
